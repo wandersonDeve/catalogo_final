@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+html,body{
+    height: 100%;
+}
+section{
+    height: 100%;
+}
+
+#carrosel{
+    height: 100%;
+}
+#carouselExampleIndicators{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+img{
+    height: 100%;
+}
+#home-btn{
+    position:absolute;
+    top: 75%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+
+#btn-watch{
+    width: 250px;
+    height: 70px;
+    background-color: transparent;
+    border-radius:46px;
+    border: 4px solid #fff;
+    margin-right: 50px;
+    transition: .7s;
+    outline:none;
+}
+#btn-watch:hover{
+    transform: scale(1.2);
+    background-color: rgba(75, 68, 68, 0.568);
+}
+#btn-watch a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: .5s;
+}
+
+#btn-more{
+    width: 250px;
+    height: 70px;
+    background-color: transparent;
+    border-radius:46px;
+    border: 4px solid #fff;
+    margin-left: 50px;
+    transition: .7s;
+    outline:none;
+}
+
+#btn-more:hover{
+    transform: scale(1.2);
+    background-color: rgba(75, 68, 68, 0.568);
+}
+
+
+#btn-more a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: .5s;
+}
+
+#home-img{
+    height:70px;
+}
+
+@media (max-width:840px){
+    #btn-watch{
+        width: 170px;
+        height: 60px;
+        border: 3px solid #fff;
+    }
+    #btn-watch a{
+        font-size: 1.3rem;
+    }
+    #btn-more{
+        width: 170px;
+        height: 60px;
+    }
+    #btn-more a{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:630px){
+    
+    #btn-watch{
+        width: 180px;
+        height: 50px;
+        margin:0 15px;
+    }
+    #btn-watch a{
+        font-size: 1.1rem;
+    }
+    #btn-more{
+        width: 180px;
+        height: 50px;
+        margin:0 15px;
+    }
+    #btn-more a{
+        font-size: 1rem;
+    }
+    
+    #home-img{
+        height:70px;
+    }
+}
+
+@media (max-width:375px){
+    .carousel-item{
+        height:756px
+    }
+}
