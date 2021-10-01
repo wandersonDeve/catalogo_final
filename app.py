@@ -21,7 +21,6 @@ class Catalogo(db.Model):
         self.descricao = descricao
         self.link = link
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
